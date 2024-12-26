@@ -1,0 +1,136 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  background-color: rgb(209, 207, 203);
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  min-height: 15%;
+  max-height: 300px;
+  background: url("./Assets/Header.png") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.header-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2em;
+  font-size: clamp(1.5em, 5vw, 2em);
+  z-index: 1;
+  text-align: center;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  padding: 5px 0;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 5px;
+  font-size: clamp(0.8em, 2vw, 1.3em);
+  border-radius: 5px;
+}
+
+.nav-buttons .active {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 5px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 0;
+  font-size: 1em;
+}
+
+.footer-nav a:hover {
+  color: lightgray;
+}
+
+.footer-copyright {
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+@media (max-width: 430px) {
+  .header {
+    min-height: 12%;
+    max-height: 300px;
+  }
+  .main-content {
+    flex: 1;
+    padding: 10px 0;
+  }
+  .header h1 {
+    font-size: 1.6em;
+    font-size: clamp(1em, 4.5vw, 1.6em);
+  }
+}
+
+@media (max-height: 560px) {
+  .header {
+    min-height: 30%;
+    max-height: 25%;
+  }
+  .header h1 {
+    font-size: 1.6em;
+    font-size: clamp(1em, 4.5vw, 1.6em);
+  }
+}

@@ -1,0 +1,16 @@
+# Node modules
+node_modules
+# Frontend build output
+build
+# Backend build output
+dist
+# Logs and temporary files
+*.log
+.DS_Store
+# Environment files
+*.env
+# Git repository
+.git
+# Miscellaneous
+.idea
+.vscode
