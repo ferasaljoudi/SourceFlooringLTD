@@ -1,7 +1,13 @@
+<div style="width: 100%;">
+    <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/SVGsHeader/SourceFlooringLTD.svg" alt="Source Flooring LTD" style="width: 100%"></a>
+</div>
+<br>
 
 <div align = "center">
 
 This project is a responsive and dynamic website built for Source Flooring LTD, a flooring business started by Belal Aljoudy. The website serves as an online platform to showcase services, collect customer inquiries, and provide contact information.
+
+_<a href="https://SourceFlooringLTD.aljoudi.ca/" title="Source Flooring LTD">Source Flooring LTD</a>_
 
 </div>
 
