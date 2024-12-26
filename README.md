@@ -11,6 +11,15 @@ This project is a responsive and dynamic website built for Source Flooring LTD, 
 </div>
 <br>
 
+The Source Flooring LTD website provides:
+
+- An easy-to-navigate interface for customers.
+- A form to submit inquiries and request free quotes.
+- A showcase of services offered by the business.
+- Contact details with clickable phone and address links for convenience.
+
+This website was developed as a passion project for my brother, Belal Aljoudy, to help him establish an online presence for his new business.
+
 <br>
 <div style="width: 100%;">
     <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/technologiesUsed.svg" alt="Technologies Used" style="width: 100%"></a>
@@ -71,3 +80,9 @@ This project is a responsive and dynamic website built for Source Flooring LTD, 
     <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/features.svg" alt="Features" style="width: 100%"></a>
 </div>
 <br>
+
+- React-based frontend to deliver a fast, user-friendly experience.
+- Customers can request free quotes, with inquiries sent via email.
+- Responsive design that is optimized for desktop and mobile devices.
+- Highlights various flooring services provided by the business.
+- Seamless deployment using Docker and a Raspberry Pi server.
